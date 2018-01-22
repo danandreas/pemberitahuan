@@ -1,0 +1,62 @@
+                                  <form action="" class="form-horizontal row-border">
+              											<div class="form-group">
+              												<label class="col-sm-2 control-label">Kode Petugas</label>
+              												<div class="col-sm-2">
+              													<input type="text" name="idptg" value="<?php echo $idbaru; ?>" class="form-control" readonly>
+              												</div>
+              											</div>
+														<div class="form-group">
+              												<label class="col-sm-2 control-label">Nama Petugas</label>
+              												<div class="col-sm-8">
+              													<input type="text" name="nmptg" value="" class="form-control">
+              												</div>
+              											</div>
+														<div class="form-group">
+              												<label class="col-sm-2 control-label">Nama Pe</label>
+              												<div class="col-sm-8">
+              													<input type="text" name="nmptg" value="" class="form-control">
+              												</div>
+              											</div>
+              											<div class="form-group">
+              												<label class="col-sm-2 control-label">Radio</label>
+              												<div class="col-sm-8">
+
+              													<label class="radio icheck">
+              														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+              														Option one is this and that
+              													</label>
+
+              													<label class="radio icheck">
+              														<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              														Option two can be something else
+              													</label>
+
+              												</div>
+              											</div>
+              											<div class="form-group">
+              												<label class="col-sm-2 control-label">Textarea</label>
+              												<div class="col-sm-8">
+              													<textarea class="form-control"></textarea>
+              												</div>
+              											</div>
+														<div class="form-group">
+															<label class="col-sm-2 control-label">Disabled Dropdown</label>
+															<div class="col-sm-8">
+																<select class="form-control" placeholder="Pilih Disini">
+																	<option></option>
+																	<option>Lorem ipsum dolor.</option>
+																	<option>Amet, impedit aperiam?</option>
+																	<option>Nemo, alias, quasi?</option>
+																	<option>Inventore, expedita.</option>
+																</select>
+															</div>
+														</div>
+              											<div class="panel-footer">
+              												<div class="row">
+              													<div class="col-sm-8 col-sm-offset-2">
+              														<button type="submit" class="btn-primary btn">Submit</button>
+              														<button type="reset" class="btn-default btn">Cancel</button>
+              													</div>
+              												</div>
+              											</div>
+              										</form>
